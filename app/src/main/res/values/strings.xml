@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Welcome To San Jose</string>
+
+    <!-- Category name for views [CHAR LIMIT=20] -->
+    <string name="views">What to see</string>
+
+    <!-- Category name for the shoppings [CHAR LIMIT=20] -->
+    <string name="malls">Where to go shopping</string>
+
+    <!-- Category name for the restaurants [CHAR LIMIT=20] -->
+    <string name="restaurants">Where to eat</string>
+
+    <!-- Category name for the hotels [CHAR LIMIT=20] -->
+    <string name="hotels">Where to stay</string>
+
+    <!-- Insight name for Google [CHAR LIMIT=20] -->
+    <string name="google">Google</string>
+
+    <!-- Website for Google [CHAR LIMIT=20] -->
+    <string name="google_website">https://www.google.com/intl/en/about/</string>
+
+    <!-- Insight name for Apple [CHAR LIMIT=20] -->
+    <string name="apple">Apple</string>
+
+    <!-- Website for Apple [CHAR LIMIT=20] -->
+    <string name="apple_website">www.apple.com</string>
+
+    <!-- Insight name for SJSU [CHAR LIMIT=20] -->
+    <string name="sjsu">San Jose State University</string>
+
+    <!-- Website for Google [CHAR LIMIT=20] -->
+    <string name="sjsu_website">www.sjsu.edu</string>
+
+    <!-- Insight name for Municipal Rose Garden [CHAR LIMIT=20] -->
+    <string name="municipal_rose_garden">Municipal Rose Garden</string>
+
+    <!-- Website for Municipal Rose Garden [CHAR LIMIT=20] -->
+    <string name="municipal_rose_garden_website">https://www.sanjoseca.gov/facilities/facility/details/74</string>
+
+
+    <!-- Insight name for fairmont hotel [CHAR LIMIT=20] -->
+    <string name="fairmont">Fiarmont San Jose</string>
+
+    <!-- Website for fairmont [CHAR LIMIT=20] -->
+    <string name="fairmont_website">http://www.fairmont.com/san-jose/</string>
+
+    <!-- Insight name for double tree by hilton hotel [CHAR LIMIT=20] -->
+    <string name="double_tree_hilton">DoubleTree by Hilton San Jose</string>
+
+    <!-- Website for double tree hilton [CHAR LIMIT=20] -->
+    <string name="double_tree_hilton_website">http://doubletree3.hilton.com</string>
+
+
+    <!-- Insight name for westin hotel [CHAR LIMIT=20] -->
+    <string name="westin">The Westin San Jose</string>
+
+    <!-- Website for double tree hilton [CHAR LIMIT=20] -->
+    <string name="westin_website">www.westinsanjose.com/</string>
+
+    <!-- Insight name for boiling crab restaurant [CHAR LIMIT=20] -->
+    <string name="boiling_crab">The Boiling Crab San Jose</string>
+
+    <!-- Website for boiling crab [CHAR LIMIT=20] -->
+    <string name="boiling_crab_website">http://www.theboilingcrab.com/</string>
+
+    <!-- Insight name for in-n-out burger restaurant [CHAR LIMIT=20] -->
+    <string name="in_out_burger">In-N-Out Burger</string>
+
+    <!-- Website for in-n-out burger [CHAR LIMIT=20] -->
+    <string name="in_out_burger_website">http://locations.in-n-out.com/240-San-Jose</string>
+
+
+    <!-- Insight name for Gen Korean BBQ House restaurant [CHAR LIMIT=20] -->
+    <string name="gen_bbq">Gen Korean BBQ House</string>
+
+    <!-- Website for Gen BBQ [CHAR LIMIT=20] -->
+    <string name="gen_bbq_website">http://genkoreanbbq.com</string>
+
+
+    <!-- Insight name for westfiel valley shopping mall [CHAR LIMIT=20] -->
+    <string name="westfield_vally">Westfield Valley Fair</string>
+
+    <!-- Website for westfield valley [CHAR LIMIT=20] -->
+    <string name="westfield_vally_website">https://www.westfield.com/valleyfair</string>
+
+    <!-- Insight name for Great Mall [CHAR LIMIT=20] -->
+    <string name="great_mall">Great Mall</string>
+
+    <!-- Website for great mall [CHAR LIMIT=20] -->
+    <string name="great_mall_website">http://www.simon.com/mall/great-mall</string>
+
+    <!-- Insight name for stanford shopping center [CHAR LIMIT=20] -->
+    <string name="stanford_shopping_center">Stanford Shopping Center</string>
+
+    <!-- Website for great mall [CHAR LIMIT=20] -->
+    <string name="stanford_shopping_center_website">http://www.simon.com/mall/stanford-shopping-center</string>
+
+
+</resources>

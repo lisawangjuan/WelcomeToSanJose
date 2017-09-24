@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.welcometosanjose.GoTourSanJose">
+
+    <TextView
+        android:id="@+id/views"
+        style="@style/CategoryStyle"
+        android:background="@color/category_views"
+        android:text="@string/views" />
+
+    <TextView
+        android:id="@+id/malls"
+        style="@style/CategoryStyle"
+        android:background="@color/category_malls"
+        android:text="@string/malls" />
+
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/CategoryStyle"
+        android:background="@color/category_restaurants"
+        android:text="@string/restaurants" />
+
+    <TextView
+        android:id="@+id/hotels"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hotels"
+        android:text="@string/hotels" />
+
+</LinearLayout>
