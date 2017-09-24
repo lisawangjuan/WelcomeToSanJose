@@ -17,10 +17,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".GoTourSanJose"></activity>
-        <activity android:name=".ViewsActivity"></activity>
-        <activity android:name=".MallsActicity"></activity>
-        <activity android:name=".HotelsActivity"></activity>
-        <activity android:name=".RestaurantsActivity"></activity>
+        <activity
+            android:name=".ViewsActivity"
+            android:label="@string/views"></activity>
+        <activity
+            android:name=".MallsActicity"
+            android:label="@string/malls"></activity>
+        <activity
+            android:name=".HotelsActivity"
+            android:label="@string/hotels"></activity>
+        <activity
+            android:name=".RestaurantsActivity"
+            android:label="@string/restaurants"></activity>
 
 
     </application>
