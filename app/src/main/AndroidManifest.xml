@@ -19,16 +19,20 @@
         <activity android:name=".GoTourSanJose"></activity>
         <activity
             android:name=".ViewsActivity"
-            android:label="@string/views"></activity>
+            android:label="@string/views"
+            android:parentActivityName=".GoTourSanJose"></activity>
         <activity
             android:name=".MallsActicity"
-            android:label="@string/malls"></activity>
+            android:label="@string/malls"
+            android:parentActivityName=".GoTourSanJose"></activity>
         <activity
             android:name=".HotelsActivity"
-            android:label="@string/hotels"></activity>
+            android:label="@string/hotels"
+            android:parentActivityName=".GoTourSanJose"></activity>
         <activity
             android:name=".RestaurantsActivity"
-            android:label="@string/restaurants"></activity>
+            android:label="@string/restaurants"
+            android:parentActivityName=".GoTourSanJose"></activity>
 
 
     </application>
