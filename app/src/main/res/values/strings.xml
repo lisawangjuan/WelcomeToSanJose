@@ -2,16 +2,16 @@
     <string name="app_name">Welcome To San Jose</string>
 
     <!-- Category name for views [CHAR LIMIT=20] -->
-    <string name="views">What to see</string>
+    <string name="views">Views</string>
 
     <!-- Category name for the shoppings [CHAR LIMIT=20] -->
-    <string name="malls">Where to go shopping</string>
+    <string name="malls">Malls</string>
 
     <!-- Category name for the restaurants [CHAR LIMIT=20] -->
-    <string name="restaurants">Where to eat</string>
+    <string name="restaurants">Restaurants</string>
 
     <!-- Category name for the hotels [CHAR LIMIT=20] -->
-    <string name="hotels">Where to stay</string>
+    <string name="hotels">Hotels</string>
 
     <!-- Insight name for Google [CHAR LIMIT=20] -->
     <string name="google">Google</string>
