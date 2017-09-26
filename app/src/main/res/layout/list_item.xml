@@ -22,31 +22,27 @@
 
         <TextView
             android:id="@+id/name_view"
+            style="@style/InsightNameStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
-            android:paddingTop="8dp"
-            android:text="Google"
-            android:textAppearance="?android:textAppearanceLarge"
-            android:textStyle="bold"/>
+            android:text="Google" />
 
         <TextView
             android:id="@+id/address_view"
+            style="@style/InsightAddressStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
-            android:paddingTop="8dp"
-            android:text="address"
-            android:textAppearance="?android:textAppearance"
-            android:textStyle="italic"/>
+            android:text="address" />
 
         <TextView
             android:id="@+id/video_view"
+            style="@style/InsightVideoStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:paddingTop="8dp"
-            android:textAppearance="?android:textAppearance" />
+            android:text="watch me" />
 
     </LinearLayout>
 
