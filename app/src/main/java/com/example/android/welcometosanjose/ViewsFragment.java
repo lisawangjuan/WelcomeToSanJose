@@ -1,22 +1,32 @@
 package com.example.android.welcometosanjose;
 
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 /**
- * Created by karlottajuan on 9/22/2017.
+ * A simple {@link Fragment} subclass.
  */
+public class ViewsFragment extends Fragment {
 
-public class ViewsActivity extends AppCompatActivity {
+
+    public ViewsFragment() {
+        // Required empty public constructor
+    }
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.insights_list);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.insights_list, container, false);
 
+        /** TODO: Insert all the code from the ViewsActivity’s onCreate() method after the setContentView method call */
         // create an array variable insights to store views
         final ArrayList<Insights> insights = new ArrayList<Insights>();
         insights.add(new Insights("Google", "https://www.google.com/intl/en/about/", R.drawable.google, "1600 Amphitheatre Pkwy, Mountain View, CA 94043",
@@ -32,11 +42,10 @@ public class ViewsActivity extends AppCompatActivity {
                 "Dana Ave & Naglee Ave, San Jose, CA 95112", "http://www.google.com/maps/place/Municipal+Rose+Garden/@37.3318809,-121.9308006,17z/data=!3m1!4b1!4m5!3m4!1s0x808fcb146d96926f:0xff35e99b970126d6!8m2!3d37.3318809!4d-121.9286119",
                 "Watch tour video!", "http://youtu.be/Z3kZz12fnkA"));
 
-        InsightsAdapter adapter = new InsightsAdapter(this, insights);
-
-        ListView listView = (ListView) findViewById(R.id.list);
-
+        InsightsAdapter adapter = new InsightsAdapter(getActivity(), insights);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
+        return rootView;
     }
 }

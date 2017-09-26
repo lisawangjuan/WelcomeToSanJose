@@ -17,42 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".GoTourSanJose"></activity>
-        <activity
-            android:name=".ViewsActivity"
-            android:label="@string/views"
-            android:parentActivityName=".GoTourSanJose">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.welcometosanjose.GoTourSanJose" />
-        </activity>
-        <activity
-            android:name=".MallsActicity"
-            android:label="@string/malls"
-            android:parentActivityName=".GoTourSanJose">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.welcometosanjose.GoTourSanJose" />
-        </activity>
-        <activity
-            android:name=".HotelsActivity"
-            android:label="@string/hotels"
-            android:parentActivityName=".GoTourSanJose">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.welcometosanjose.GoTourSanJose" />
-        </activity>
-        <activity
-            android:name=".RestaurantsActivity"
-            android:label="@string/restaurants"
-            android:parentActivityName=".GoTourSanJose">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.welcometosanjose.GoTourSanJose" />
-        </activity>
 
 
     </application>

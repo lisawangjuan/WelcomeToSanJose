@@ -1,21 +1,30 @@
 package com.example.android.welcometosanjose;
 
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 /**
- * Created by karlottajuan on 9/22/2017.
+ * A simple {@link Fragment} subclass.
  */
+public class RestaurantsFragment extends Fragment {
 
-public class RestaurantsActivity extends AppCompatActivity {
+
+    public RestaurantsFragment() {
+        // Required empty public constructor
+    }
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.insights_list);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.insights_list, container, false);
 
         // create an array variable insights to store views
         final ArrayList<Insights> insights = new ArrayList<Insights>();
@@ -32,12 +41,10 @@ public class RestaurantsActivity extends AppCompatActivity {
                 "https://www.google.com/maps/place/Gen+Korean+BBQ+House/@37.387245,-121.8876427,17z/data=!3m1!4b1!4m5!3m4!1s0x808fcc10c65712af:0x146313128b3ba342!8m2!3d37.387245!4d-121.885454",
                 "What does people say", "https://youtu.be/8d3Y59DY0_U"));
 
-        InsightsAdapter adapter = new InsightsAdapter(this, insights);
-
-        ListView listView = (ListView) findViewById(R.id.list);
-
+        InsightsAdapter adapter = new InsightsAdapter(getActivity(), insights);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
-
+        return rootView;
     }
-}
 
+}

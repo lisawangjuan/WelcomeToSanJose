@@ -95,5 +95,8 @@
     <!-- Website for great mall [CHAR LIMIT=20] -->
     <string name="stanford_shopping_center_website">http://www.simon.com/mall/stanford-shopping-center</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

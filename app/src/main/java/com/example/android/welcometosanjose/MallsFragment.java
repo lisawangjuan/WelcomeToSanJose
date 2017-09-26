@@ -1,21 +1,30 @@
 package com.example.android.welcometosanjose;
 
+
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
 /**
- * Created by karlottajuan on 9/22/2017.
+ * A simple {@link Fragment} subclass.
  */
+public class MallsFragment extends Fragment {
 
-public class MallsActicity extends AppCompatActivity {
+
+    public MallsFragment() {
+        // Required empty public constructor
+    }
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.insights_list);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.insights_list, container, false);
 
         // create an array variable insights to store views
         final ArrayList<Insights> insights = new ArrayList<Insights>();
@@ -32,11 +41,11 @@ public class MallsActicity extends AppCompatActivity {
                 "https://www.google.com/maps/place/Stanford+Shopping+Center/@37.443126,-122.1737627,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb3471827639:0x75895b0f0e878d4!8m2!3d37.443126!4d-122.171574",
                 "See what you can buy", "https://youtu.be/zgTYXH4q6UY"));
 
-        InsightsAdapter adapter = new InsightsAdapter(this, insights);
-
-        ListView listView = (ListView) findViewById(R.id.list);
-
+        InsightsAdapter adapter = new InsightsAdapter(getActivity(), insights);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
+        return rootView;
     }
+
 }
