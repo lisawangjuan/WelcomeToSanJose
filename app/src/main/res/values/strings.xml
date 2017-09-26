@@ -8,7 +8,7 @@
     <string name="malls">Malls</string>
 
     <!-- Category name for the restaurants [CHAR LIMIT=20] -->
-    <string name="restaurants">Restaurants</string>
+    <string name="restaurants">Restaurant</string>
 
     <!-- Category name for the hotels [CHAR LIMIT=20] -->
     <string name="hotels">Hotels</string>
