@@ -40,7 +40,7 @@ public class InsightsAdapter extends ArrayAdapter<Insights> {
         // set this text on the name TextView
         nameView.setClickable(true);
         nameView.setMovementMethod(LinkMovementMethod.getInstance());
-        String website = String.format("<a href='http://%s'> %s </a>", curInsight.getmOfficalWebsite(), curInsight.getmLocationName());
+        String website = String.format("<a href='%s'> %s </a>", curInsight.getmOfficalWebsite(), curInsight.getmLocationName());
         nameView.setText(Html.fromHtml(website));
 
         // Find the TextView in the list_item.xml layout with the ID address_view
@@ -48,7 +48,7 @@ public class InsightsAdapter extends ArrayAdapter<Insights> {
         TextView addressView = (TextView) listItemView.findViewById(R.id.address_view);
         addressView.setClickable(true);
         addressView.setMovementMethod(LinkMovementMethod.getInstance());
-        String address = String.format("<a href='http://%s'> %s </a>", curInsight.getmInsightMapUrl(), curInsight.getmInsightAddress());
+        String address = String.format("<a href='%s'> %s </a>", curInsight.getmInsightMapUrl(), curInsight.getmInsightAddress());
         addressView.setText(Html.fromHtml(address));
 
         // Find the TextView in the list_item.xml layout with the ID address_view

@@ -19,7 +19,7 @@ public class ViewsActivity extends AppCompatActivity {
 
         // create an array variable insights to store views
         final ArrayList<Insights> insights = new ArrayList<Insights>();
-        insights.add(new Insights("Google", "http://www.google.com/", R.drawable.google, "1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+        insights.add(new Insights("Google", "https://www.google.com/intl/en/about/", R.drawable.google, "1600 Amphitheatre Pkwy, Mountain View, CA 94043",
                 "http://www.google.com/maps/place/Googleplex/@37.4219999,-122.0862462,17z/data=!3m1!4b1!4m5!3m4!1s0x808fba02425dad8f:0x6c296c66619367e0!8m2!3d37.4219999!4d-122.0840575",
                 "Watch tour video!", "http://youtu.be/SNtJF6Od1f8"));
         insights.add(new Insights("Apple", "http://www.apple.com", R.drawable.apple_campus, "1 Infinite Loop, Cupertino, CA 95014",
