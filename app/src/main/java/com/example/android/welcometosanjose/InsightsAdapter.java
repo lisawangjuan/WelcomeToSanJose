@@ -1,6 +1,8 @@
 package com.example.android.welcometosanjose;
 
 import android.app.Activity;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,13 +38,15 @@ public class InsightsAdapter extends ArrayAdapter<Insights> {
         TextView nameView = (TextView) listItemView.findViewById(R.id.name_view);
         // Get the version name from the current Insights object and
         // set this text on the name TextView
-        nameView.setText(curInsight.getmLocationName());
+        nameView.setClickable(true);
+        nameView.setMovementMethod(LinkMovementMethod.getInstance());
+        String text = String.format("<a href='http://%s'> %s </a>", curInsight.getmOfficalWebsite(), curInsight.getmLocationName());
+        nameView.setText(Html.fromHtml(text));
 
         // Find the TextView in the list_item.xml layout with the ID official_website
         TextView websiteView = (TextView) listItemView.findViewById(R.id.official_website);
-        // Get the version name from the current Insights object and
-        // set this text on the name TextView
         websiteView.setText(curInsight.getmOfficalWebsite());
+
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.photo_view);
         iconView.setImageResource(curInsight.getmImageSourceID());
