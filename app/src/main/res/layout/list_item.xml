@@ -23,44 +23,30 @@
         <TextView
             android:id="@+id/name_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
             android:paddingTop="8dp"
             android:text="Google"
             android:textAppearance="?android:textAppearanceLarge"
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/official_website"
+            android:id="@+id/address_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autoLink="web"
+            android:layout_height="0dp"
+            android:layout_weight="2"
             android:paddingTop="8dp"
-            android:text="www.google.com"
+            android:text="address"
             android:textAppearance="?android:textAppearance"
             android:textStyle="italic"/>
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/video_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/navigation_map"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_weight="1"
-                android:text="map it" />
-
-            <Button
-                android:id="@+id/video_introduction"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_weight="1"
-                android:text="Watch" />
-        </LinearLayout>
+            android:paddingTop="8dp"
+            android:textAppearance="?android:textAppearance" />
 
     </LinearLayout>
 
